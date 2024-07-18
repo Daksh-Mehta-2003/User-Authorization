@@ -1,0 +1,93 @@
+/* Navbar.css */
+
+.landing-page{
+    background: url('./Assets/intern3.jpg');
+}
+.navbar {
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-color: azure;
+  }
+  
+  .logo {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-left: 30px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: rgb(103, 8, 147); /* Change color on hover */
+  }
+
+.ED {
+    text-align: left;
+    padding: 20px; /* Add padding as needed */
+    color: #fff; /* Set text color */
+    justify-content: flex-end;
+    padding-top: 100px;
+    padding-left: 50px;
+
+  }
+  
+  .ED h1 {
+    margin: 0; /* Remove default margin for h1 */
+    font-size: 50px; /* Set font size as needed */
+    font-weight: bolder;
+  }
+  .content {
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+    padding-right: 30px;
+    padding-bottom: 200px;
+    color: azure;
+   
+  }
+  
+  .content p {
+    max-width: 600px; 
+    font-size: 20px; 
+  }
+  .search-bar { 
+    color: black;
+    margin-left: 60px ;
+    margin-top: 25px;
+   
+    
+  }
+  
+  .search-bar input {
+    width: 400px; 
+    border: 1px solid white; 
+    border-radius: 10px;
+    color: rgb(103, 8, 147);
+    background-color: transparent;
+
+  }
+  
+  
+  
